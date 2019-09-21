@@ -4,7 +4,6 @@ Ionic Space X demo App
 
 
 ## Setup your machine
------------------
 
 * Download and install visual studio code:
 
@@ -19,7 +18,6 @@ Ionic Space X demo App
     `npm install -g ionic cordova`
 
 ## Useful links
------------------
 
 - SpaceX API Data: https://api.spacexdata.com/
 - Ionic framework docs: https://ionicframework.com/docs
@@ -28,8 +26,7 @@ Ionic Space X demo App
 - Ionic native docs: https://ionicframework.com/docs/native
 - Angular docs: https://angular.io/docs
 
-3. Contacts
------------------
+## Contacts
 
 Bilel Msekni (msekni.bilel@gmail.com)
 
