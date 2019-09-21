@@ -24,5 +24,23 @@
   "inactive": {
     "prefix": "inactive",
     "body": [".inactive {", "border-left: 6px solid var(--ion-color-danger);", "margin: 0px 0 2px 0;", "}"]
+  },
+
+  "tab-container": {
+    "prefix": "tab-container",
+    "body": [
+      "<ion-tabs>",
+      "<ion-tab-bar slot=\"bottom\">",
+      "<ion-tab-button>",
+      "<ion-icon name=\"eye\"></ion-icon>",
+      "<ion-label>Overview</ion-label>",
+      "</ion-tab-button>",
+      "<ion-tab-button>",
+      "<ion-icon name=\"podium\"></ion-icon>",
+      "<ion-label>Upcoming</ion-label>",
+      "</ion-tab-button>",
+      "</ion-tab-bar>",
+      "</ion-tabs>"
+    ]
   }
 }
