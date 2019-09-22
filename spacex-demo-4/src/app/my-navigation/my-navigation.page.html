@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>MyNavigation</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-fab vertical="bottom" horizontal="center" slot="fixed">
+    <ion-fab-button (click)="locate()">
+      <ion-icon name="locate"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+  <ng-container *ngIf="location">
+    <ion-text> Lat: {{ location.coords.latitude }} </ion-text>
+    <ion-text> Lng: {{ location.coords.longitude }} </ion-text>
+  </ng-container>
+</ion-content>
